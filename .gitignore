@@ -30,7 +30,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -39,3 +38,8 @@
 
 # debug information files
 *.dwo
+
+bazel-bazel-tutorial
+bazel-bin
+bazel-out
+bazel-testlogs

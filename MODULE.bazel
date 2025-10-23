@@ -1,0 +1,4 @@
+module(
+    name = "bazel_tutorial",
+    version = "0.1",
+)
