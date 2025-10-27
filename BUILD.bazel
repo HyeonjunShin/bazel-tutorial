@@ -1,0 +1,17 @@
+    # load("@hedron_compile_commands//:refresh_compile_commands.bzl", "refresh_compile_commands")
+
+    # refresh_compile_commands(
+    #     name = "refresh_compile_commands",
+    #     # Optional: Exclude headers from the compilation database
+    #     exclude_headers = "all",
+    #     # Specify targets to include in the compilation database.
+    #     # This can be a dictionary of targets and their required flags,
+    #     # a list of targets, or a single target string. Wildcards are supported.
+    #     # targets = {
+    #     #     "//:my_library": "",
+    #     #     "//my_package/...": "--config=my_important_flags",
+    #     # },
+    # )
+
+
+# bazel run @hedron_compile_commands//:refresh_all

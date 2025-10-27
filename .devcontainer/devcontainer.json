@@ -6,16 +6,21 @@
 		"dockerfile": "Dockerfile"
 	},
 	"features": {
-		"ghcr.io/balazs23/devcontainers-features/bazel:1": {}
+		// "ghcr.io/balazs23/devcontainers-features/bazel:1": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-vscode.cpptools",
-				"bazelbuild.vscode-bazel"
+				// "ms-vscode.cpptools",
+				"bazelbuild.vscode-bazel",
+				"llvm-vs-code-extensions.vscode-clangd"
 			]
 		}
-	}
+	},"runArgs": [
+		"--rm",
+		"-it",
+		"-v", "/dev/bus/usb:/dev/bus/usb"
+	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
