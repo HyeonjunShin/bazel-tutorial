@@ -16,7 +16,8 @@
 				"llvm-vs-code-extensions.vscode-clangd"
 			]
 		}
-	},"runArgs": [
+	},
+	"runArgs": [
 		"--rm",
 		"-it",
 		"-v", "/dev/bus/usb:/dev/bus/usb"
